@@ -186,6 +186,7 @@
         function agregarCarrito(prod){
             console.log(prod);
             carrito.push({id: prod.id, nombre: prod.nombre, precio: prod.precio, cantidad: 1, imagen: prod.imagen});
+            document.getElementById('carrito-badge').innerHTML  = carrito.length;
             actualizarCarrito();
             document.getElementById('carrito-toggle').checked = true;
         }
