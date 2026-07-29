@@ -9,7 +9,7 @@
 </head>
 <body class="bg-slate-300 text-slate-800 font-sans text-white">
     
-    <header class="top-0 z-30 bg-blue-900 backdrop-blur-md">
+    <header class="sticky top-0 z-30 bg-blue-900 backdrop-blur-md">
         <div class="flex items-center justify-between h-16 max-w-6xl px-4">
             <h1 class="text-2xl font-black ">Mi Tienda</h1>
             
@@ -26,93 +26,229 @@
             <h2 class="text-3xl font-extrabold text-slate-900">Nuestros Productos</h2>
             <p class="text-slate-500 mt-2 text-sm">Este es nuestro catálogo de productos</p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 group">
-                <div class="relative overflow-hidden bg-slate-100">
-                    <img
-                        src="https://sologamerbolivia.com/cdn/shop/collections/efa31c742758e6fc64a4b3fbf38e4453.jpg?v=1747846529"
-                        alt="" 
-                        class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
-                    <span class="absolute top-3 right-3 bg-indigo-600 text-white px-3 rounded-full">Nuevo</span>
-                </div>
-                <div class="p-6 space-y-4">
-                    <div>
-                        <h3 class="text-slate-900 font-bold text-lg ">Teclado Mecanico (Gammer)</h3>
-                        <p class="text-slate-500 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam modi aperiam placeat, illo quasi magnam dolores, suscipit commodi quam consectetur? Iusto reiciendis obcaecati dolor vel, tempora quisquam perspiciatis nam.</p>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <span class="text-2xl font-black text-slate-900">30 USDT</span>
-                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2.5 rounded-xl transition-all active:scale-95 shadow-md">+ Añadir</button>
-                    </div>
-                </div>
-            </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="contenedor-productos">
 
-            <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 group">
-                <div class="relative overflow-hidden bg-slate-100">
-                    <img
-                        src="https://sofmat.com.bo/wp-content/uploads/2021/04/GXT-865-Asta-1.jpg"
-                        alt="" 
-                        class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
-                    <span class="absolute top-3 right-3 bg-indigo-600 text-white px-3 rounded-full">Nuevo</span>
-                </div>
-                <div class="p-6 space-y-4">
-                    <div>
-                        <h3 class="text-slate-900 font-bold text-lg ">Teclado Mecanico (Gammer)</h3>
-                        <p class="text-slate-500 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam modi aperiam placeat, illo quasi magnam dolores, suscipit commodi quam consectetur? Iusto reiciendis obcaecati dolor vel, tempora quisquam perspiciatis nam.</p>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <span class="text-2xl font-black text-slate-900">30 USDT</span>
-                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2.5 rounded-xl transition-all active:scale-95 shadow-md">+ Añadir</button>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 group">
-                <div class="relative overflow-hidden bg-slate-100">
-                    <img
-                        src="https://sologamerbolivia.com/cdn/shop/collections/efa31c742758e6fc64a4b3fbf38e4453.jpg?v=1747846529"
-                        alt="" 
-                        class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
-                    <span class="absolute top-3 right-3 bg-indigo-600 text-white px-3 rounded-full">Nuevo</span>
-                </div>
-                <div class="p-6 space-y-4">
-                    <div>
-                        <h3 class="text-slate-900 font-bold text-lg ">Teclado Mecanico (Gammer)</h3>
-                        <p class="text-slate-500 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam modi aperiam placeat, illo quasi magnam dolores, suscipit commodi quam consectetur? Iusto reiciendis obcaecati dolor vel, tempora quisquam perspiciatis nam.</p>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <span class="text-2xl font-black text-slate-900">30 USDT</span>
-                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2.5 rounded-xl transition-all active:scale-95 shadow-md">+ Añadir</button>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 group">
-                <div class="relative overflow-hidden bg-slate-100">
-                    <img
-                        src="https://sologamerbolivia.com/cdn/shop/collections/efa31c742758e6fc64a4b3fbf38e4453.jpg?v=1747846529"
-                        alt="" 
-                        class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
-                    <span class="absolute top-3 right-3 bg-indigo-600 text-white px-3 rounded-full">Nuevo</span>
-                </div>
-                <div class="p-6 space-y-4">
-                    <div>
-                        <h3 class="text-slate-900 font-bold text-lg ">Teclado Mecanico (Gammer)</h3>
-                        <p class="text-slate-500 text-sm mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam modi aperiam placeat, illo quasi magnam dolores, suscipit commodi quam consectetur? Iusto reiciendis obcaecati dolor vel, tempora quisquam perspiciatis nam.</p>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <span class="text-2xl font-black text-slate-900">30 USDT</span>
-                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2.5 rounded-xl transition-all active:scale-95 shadow-md">+ Añadir</button>
-                    </div>
-                </div>
-            </div>
-
-            
-            
         </div>
+            
     </main>
+
+    <input type="checkbox" class="peer hidden" id="carrito-toggle">
     
+    <label for="carrito-toggle" class="fixed bottom-6 bg-blue-800 p-4 right-6 cursor-pointer z-40 transition-all hover:scale-110 active:scale-95">
+        Carrito
+        <span id="carrito-badge" class="absolute  -top-1 -right-1 bg-red-500 p-1">1</span>
+    </label>
+
+    <label for="carrito-toggle" class="fixed inset-0 bg-slate-900/60 backdrop-blur z-40 opacity-0 pointer-events-none peer-checked:opacity-100 peer-checked:pointer-events-auto transition-opacity duration-300"></label>
+
+    <aside class="fixed top-0 right-0 w-full max-w-md h-full bg-white z-50 shadow-2xl transform translate-x-full peer-checked:translate-x-0 transition-transform duration-300 ease-in-out flex flex-col justify-between p-6">
+        <h3>Carrito</h3>
+        <div id="carrito-items" class="text-slate-400 ">
+
+        </div>
+
+        <button onclick="hablarWhatsapp()" class="w-full bg-green-600 py-4 px-2 rounded">Comprar por Whatsapp</button>
+
+    </aside>
+    
+    <!-- <p>ahora el codigo javascript</p> -->
+
+    <script >
+        // codigo de Javascript
+        // console.log("Hola mundo desde el codigo");
+        // alert("Hola Mundo desde el codigo");
+        // document.write("<h1 class='bg-blue-500 py-4 px-4'>Hola Mundo desde el codigo</h1>");
+
+        // JSON
+        const productos = [
+    {
+        id: 1,
+        nombre: "Audífono Premium",
+        descripcion: "Audífono inalámbrico con cancelación de ruido, Nuevo 10/10",
+        precio: 120,
+        imagen: "https://picsum.photos/300?random=1",
+        destacado: true
+    },
+    {
+        id: 2,
+        nombre: "Teclado Mecánico RGB",
+        descripcion: "Teclado mecánico con iluminación RGB y switches azules",
+        precio: 85,
+        imagen: "https://picsum.photos/300?random=2",
+        destacado: true
+    },
+    {
+        id: 3,
+        nombre: "Mouse Gamer",
+        descripcion: "Mouse ergonómico de 7200 DPI con iluminación LED",
+        precio: 35,
+        imagen: "https://picsum.photos/300?random=3",
+        destacado: false
+    },
+    {
+        id: 4,
+        nombre: "Monitor 24 Pulgadas",
+        descripcion: "Monitor Full HD de 24'' con panel IPS y 75Hz",
+        precio: 180,
+        imagen: "https://picsum.photos/300?random=4",
+        destacado: true
+    },
+    {
+        id: 5,
+        nombre: "Laptop Ultrabook",
+        descripcion: "Laptop Intel Core i5, 16GB RAM, SSD 512GB",
+        precio: 850,
+        imagen: "https://picsum.photos/300?random=5",
+        destacado: true
+    },
+    {
+        id: 6,
+        nombre: "Smartwatch Pro",
+        descripcion: "Reloj inteligente con monitor cardíaco y GPS",
+        precio: 150,
+        imagen: "https://picsum.photos/300?random=6",
+        destacado: false
+    },
+    {
+        id: 7,
+        nombre: "Parlante Bluetooth",
+        descripcion: "Parlante portátil resistente al agua con 12 horas de batería",
+        precio: 65,
+        imagen: "https://picsum.photos/300?random=7",
+        destacado: false
+    },
+    {
+        id: 8,
+        nombre: "Disco SSD 1TB",
+        descripcion: "Unidad de estado sólido de 1TB con alta velocidad",
+        precio: 110,
+        imagen: "https://picsum.photos/300?random=8",
+        destacado: true
+    },
+    {
+        id: 9,
+        nombre: "Webcam Full HD",
+        descripcion: "Cámara web 1080p con micrófono integrado",
+        precio: 55,
+        imagen: "https://picsum.photos/300?random=9",
+        destacado: false
+    },
+    {
+        id: 10,
+        nombre: "Silla Gamer",
+        descripcion: "Silla ergonómica con soporte lumbar y reposabrazos ajustables",
+        precio: 220,
+        imagen: "https://picsum.photos/300?random=10",
+        destacado: true
+    },
+
+    {
+        id: 10,
+        nombre: "Zapato para Damas",
+        descripcion: "Zapato ergonómico con soporte lumbar",
+        precio: 320,
+        imagen: "https://picsum.photos/300?random=11",
+        destacado: true
+    }
+];
+
+
+        let tarjetasProductos = "";
+        for(let i=0; i < productos.length; i++ ){
+
+            tarjetasProductos = tarjetasProductos + `
+            <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl border border-slate-100 group">
+                <div class="relative overflow-hidden bg-slate-100">
+                    <img
+                        src="${productos[i].imagen}"
+                        alt="" 
+                        class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500">
+                ${productos[i].destacado?'<span class="absolute top-3 right-3 bg-indigo-600 text-white px-3 rounded-full">Nuevo</span>':''}
+                </div>
+                <div class="p-6 space-y-4">
+                    <div>
+                        <h3 class="text-slate-900 font-bold text-lg ">${productos[i].nombre}</h3>
+                        <p class="text-slate-500 text-sm mt-1">${productos[i].descripcion}</p>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="text-2xl font-black text-slate-900">${productos[i].precio} USDT</span>
+                        <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-4 py-2.5 rounded-xl transition-all active:scale-95 shadow-md" onclick='agregarCarrito(${JSON.stringify(productos[i])})'>+ Añadir</button>
+                    </div>
+                </div>
+            </div>
+            `;
+
+        }
+
+        document.getElementById("contenedor-productos").innerHTML = tarjetasProductos;
+
+        let carrito = [];
+        function agregarCarrito(prod){
+            console.log(prod);
+            carrito.push({id: prod.id, nombre: prod.nombre, precio: prod.precio, cantidad: 1, imagen: prod.imagen});
+            actualizarCarrito();
+            document.getElementById('carrito-toggle').checked = true;
+        }
+
+        let carritoHtml = "";
+        function actualizarCarrito(){
+            carritoHtml = carrito.map(item => `
+            <div class="flex items-center justify-between gap-4 bg-slate-50 p-3 rounded-md border border-slate-500">
+                <img src="${item.imagen}" alt="" class="w-14 h-14 object-cover rounded shadow-md">
+                <div class="flex-1">
+                    <h4 class="font-semibold text-slate-800">${item.nombre}</h4>
+                    <span class="text-indigo-600 font-medium text-xs">${item.precio} USDT</span>
+                </div>
+                <div>
+                    <span>precio</span>
+                </div>
+            </div>
+            `).join('');
+
+            document.getElementById("carrito-items").innerHTML = carritoHtml;
+        }
+
+        function hablarWhatsapp() {
+            let mensaje = '';
+            carrito.forEach(item => {
+                mensaje += `- *${item.nombre}* x${item.cantidad} - $${item.precio}`
+            })
+            window.open(`https://wa.me/59173277937?text=Hola+Quiero+comprar+${mensaje}`);
+        }
+
+        /*
+        const agregarCarrito2 = function (prod){
+
+        }
+
+        const agregarCarrito3 = (prod) => {
+
+        }
+        */
+
+
+
+        /*
+        productos.forEach(prod => {
+            
+        });
+
+        for (const prod of productos) {
+            
+        }
+
+        productos.map(prod => {
+
+        });*/
+
+
+        // let nombre = "Juan";
+        // let saludo = 'Hola ' + nombre;
+        // let saludo2 = `Hola ${nombre}`;
+
+
+
+    </script>
+
 </body>
 </html>
